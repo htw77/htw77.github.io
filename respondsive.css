@@ -1,0 +1,22 @@
+
+.col-1 {width: 25%;}
+
+.col-2 {width: 50%;}
+
+.col-3 {width: 75%;}
+
+.col-4 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+div{
+  min-height: fit-content;
+  /* display: floa; */
+}
+p{
+  font-family: 'Syne Tactile', cursive;
+}

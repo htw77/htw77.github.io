@@ -1,0 +1,75 @@
+:root{
+  --warna-primer: #11235D;
+  --warna-sekunder: #EFEFEF;
+  --warna-1: #56CBF9;
+  --warna-2: #FAA916;
+  --warna-3: #96031A;
+}
+body{
+  overflow-x: hidden;
+}
+
+html, body{
+  height: 100%;
+  margin: 0px;
+  min-height: 500px;
+  }
+
+input,
+textarea,
+select{
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px transparent;
+  border-top: 3px black;
+}
+input[type=radio]{
+  max-width: 170px;
+}
+
+input:focus{
+  background-color: aqua;
+}
+
+.formulir_wrapper{
+  /* Atas, Bawah = 50px  dan kanan, kiri = 30px */
+  margin: 50px 30px !important;
+  margin: 20px 10px 30px 40px;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 20px;
+}
+
+#tukang_ngutang{
+  color: red;
+}
+
+thead{
+  background-color: blue;
+}
+tbody{
+  background-color: rgba(51, 51, 255, 0.2);
+}
+
+tbody tr:nth-child(odd){
+  background-color: #fff;
+}
+
+tr#tukang_ngutang{
+  color: black;
+  background-color: green;
+}
+
+div.contain{
+  width: 100%;
+  min-height: 350px;
+  color: white;
+  padding: 25px 30px;
+}
+
+.section-primer{
+  background: var(--warna-primer);
+}
